@@ -33,3 +33,6 @@ Now that transcendence has changed to a simpler monopoly-like system, ChoPhago i
 
 ### configs/config.json
 - The training parameters are in this file.
+
+## Disclaimer
+The Transcendence system, LostArk, and all related trademarks and logos are the property of Smilegate RPG. I do not own any of the trademarks and logos, nor am I affiliated with Smilegate RPG.
