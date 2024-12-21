@@ -1,4 +1,4 @@
-# ChoPhago-Open
+# ChoPhago-Open 초파고 공개 코드
 ## Intro
 ChoPhago is an AI based helper program for the game LostArk's transcendence system.
 Now that transcendence has changed to a simpler monopoly-like system, ChoPhago is no longer needed.
