@@ -1,6 +1,7 @@
 keras==2.15.0
 keras-core==0.1.7
 keras-nlp==0.8.2
+matplotlib
 numba
 numpy
 nvidia-cublas-cu12==12.3.4.1
