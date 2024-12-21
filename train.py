@@ -38,9 +38,13 @@ def wrap_model(model:tf.keras.Model):
     inputs = model.inputs
     all_logits = model.outputs[0]
     action_inputs = tf.keras.Input(shape=(), dtype=tf.int32)
+    
+    # Comment this line if tensorflow > 2.15
     chosen_logits = tf.gather(all_logits, action_inputs, batch_dims=1)
-    # if tensorflow > 2.15
+    
+    # Uncomment this line if tensorflow > 2.15
     # chosen_logits = GatherLayer()([all_logits, action_inputs])
+    
     return tf.keras.Model(inputs=inputs+[action_inputs], outputs=chosen_logits)
 
 
